@@ -83,7 +83,7 @@ const Users = () => {
 											<Link to={`/update/${client._id}`}>Edit</Link>
 										</div>
 										<div className="rounded-lg p-1 my-1 bg-red-600 text-white text-center px-2 cursor-pointer">
-											<a>Delete</a>
+										<Link to={`/delete/${client._id}`}>Delete</Link>
 										</div>
 									</td>
 								</tr>
