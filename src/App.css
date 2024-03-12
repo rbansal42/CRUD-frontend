@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+	input {
+		@apply border w-[50%] rounded-md;
+	}
+} 
